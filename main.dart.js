@@ -10559,7 +10559,7 @@ agP:function agP(a){this.a=a},
 a53(a){var s=0,r=A.z(t.Vy),q,p,o
 var $async$a53=A.v(function(b,c){if(b===1)return A.w(c,r)
 while(true)switch(s){case 0:s=3
-return A.C(A.aR_(A.t6("https","api.kampungprogrammer.com","/fastcashier/store",A.ak(["user",a],t.N,t.z))),$async$a53)
+return A.C(A.aR_(A.t6("https","web-api.kampungprogrammer.com","/fastcashier/store",A.ak(["user",a],t.N,t.z))),$async$a53)
 case 3:o=c
 if(o.b===200){p=J.j0(B.aQ.dr(A.K8(A.K_(o.e).c.a.h(0,"charset")).dr(o.w)),new A.a54(),t.RE)
 q=A.Y(p,!0,p.$ti.i("ae.E"))
@@ -10569,7 +10569,7 @@ case 1:return A.x(q,r)}})
 return A.y($async$a53,r)},
 a4Y(a){var s=0,r=A.z(t.RE),q,p,o,n
 var $async$a4Y=A.v(function(b,c){if(b===1)return A.w(c,r)
-while(true)switch(s){case 0:o=A.t6("https","api.kampungprogrammer.com","/fastcashier/store/add",null)
+while(true)switch(s){case 0:o=A.t6("https","web-api.kampungprogrammer.com","/fastcashier/store/add",null)
 n=t.N
 n=A.ak(["Content-Type","application/json"],n,n)
 s=3
@@ -10582,7 +10582,7 @@ case 1:return A.x(q,r)}})
 return A.y($async$a4Y,r)},
 a56(a){var s=0,r=A.z(t.RE),q,p,o,n,m,l,k,j
 var $async$a56=A.v(function(b,c){if(b===1)return A.w(c,r)
-while(true)switch(s){case 0:k=A.t6("https","api.kampungprogrammer.com","/fastcashier/store/"+A.h(a.a),null)
+while(true)switch(s){case 0:k=A.t6("https","web-api.kampungprogrammer.com","/fastcashier/store/"+A.h(a.a),null)
 j=a.fc()
 j.n(0,"_method","PUT")
 p=A.b([],t.s)
@@ -10604,14 +10604,14 @@ return A.y($async$a56,r)},
 a50(a){var s=0,r=A.z(t.H)
 var $async$a50=A.v(function(b,c){if(b===1)return A.w(c,r)
 while(true)switch(s){case 0:s=2
-return A.C(A.aIX(A.t6("https","api.kampungprogrammer.com","/fastcashier/store/"+A.h(a.a),null)),$async$a50)
+return A.C(A.aIX(A.t6("https","web-api.kampungprogrammer.com","/fastcashier/store/"+A.h(a.a),null)),$async$a50)
 case 2:if(c.b!==200)throw A.d(A.bc("Failed to delete store"))
 return A.x(null,r)}})
 return A.y($async$a50,r)},
 Me(a,b){var s=0,r=A.z(t.b_),q,p,o,n,m,l
 var $async$Me=A.v(function(c,d){if(c===1)return A.w(d,r)
 while(true)switch(s){case 0:s=3
-return A.C(A.aR_(A.t6("https","api.kampungprogrammer.com","/fastcashier/product",A.ak(["page",B.e.j(a),"store_id",B.e.j(b)],t.N,t.z))),$async$Me)
+return A.C(A.aR_(A.t6("https","web-api.kampungprogrammer.com","/fastcashier/product",A.ak(["page",B.e.j(a),"store_id",B.e.j(b)],t.N,t.z))),$async$Me)
 case 3:l=d
 if(l.b===200){p=B.aQ.dr(A.K8(A.K_(l.e).c.a.h(0,"charset")).dr(l.w))
 o=J.aa(p)
@@ -10625,7 +10625,7 @@ case 1:return A.x(q,r)}})
 return A.y($async$Me,r)},
 a4Z(a){var s=0,r=A.z(t.Ct),q,p,o,n
 var $async$a4Z=A.v(function(b,c){if(b===1)return A.w(c,r)
-while(true)switch(s){case 0:o=A.t6("https","api.kampungprogrammer.com","/fastcashier/product/add",null)
+while(true)switch(s){case 0:o=A.t6("https","web-api.kampungprogrammer.com","/fastcashier/product/add",null)
 n=t.N
 n=A.ak(["Content-Type","application/json"],n,n)
 s=3
@@ -10638,7 +10638,7 @@ case 1:return A.x(q,r)}})
 return A.y($async$a4Z,r)},
 a55(a){var s=0,r=A.z(t.Ct),q,p,o,n,m
 var $async$a55=A.v(function(b,c){if(b===1)return A.w(c,r)
-while(true)switch(s){case 0:n=A.t6("https","api.kampungprogrammer.com","/fastcashier/product/"+A.h(a.a),null)
+while(true)switch(s){case 0:n=A.t6("https","web-api.kampungprogrammer.com","/fastcashier/product/"+A.h(a.a),null)
 m=a.fc()
 m.n(0,"_method","PUT")
 p=t.N
@@ -10654,7 +10654,7 @@ return A.y($async$a55,r)},
 a5_(a){var s=0,r=A.z(t.H)
 var $async$a5_=A.v(function(b,c){if(b===1)return A.w(c,r)
 while(true)switch(s){case 0:s=2
-return A.C(A.aIX(A.t6("https","api.kampungprogrammer.com","/fastcashier/product/"+A.h(a.a),null)),$async$a5_)
+return A.C(A.aIX(A.t6("https","web-api.kampungprogrammer.com","/fastcashier/product/"+A.h(a.a),null)),$async$a5_)
 case 2:if(c.b!==200)throw A.d(A.bc("Failed to delete store"))
 return A.x(null,r)}})
 return A.y($async$a5_,r)},
