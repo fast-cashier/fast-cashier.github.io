@@ -34,17 +34,5 @@
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/flutter_service_worker.js');
-      });
-    }
-  </script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/3.2.146/pdf.min.js"></script>
-  <script type="text/javascript">
-     pdfjsLib.GlobalWorkerOptions.workerSrc = "//cdnjs.cloudflare.com/ajax/libs/pdf.js/3.2.146/pdf.worker.min.js";
-  </script>
-  <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
